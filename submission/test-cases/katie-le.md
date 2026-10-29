@@ -15,23 +15,31 @@ HOW TO USE THIS FILE
 ---
 
 **Test ID:**
+KL-01
 **Written by:**
+Katie Le
 **Title:**
+Password of length 4 characters accepted
 **Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
+REQ1
+**Test type:** (Security)
 **Preconditions:**
+unique username
 **Test data:**
-
+Name: Kitty_Cat
+Password: 1234
 **Steps:**
-1.
-2.
-3.
+1. Type in a unique username 
+2. Type in a password 
+3. Click create account
 
 **Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+"Invalid username or password."
+**Actual result:** 
+"Account created! You can log in now."
+**Status:** (Fail)
+**Severity:** (Critical)
+**V or V:** (Verification)
 
 ---
 
