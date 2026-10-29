@@ -14,11 +14,31 @@ HOW TO USE THIS FILE
 
 ---
 
+**Test ID:** AP-01
+**Written by:** Akshaya P
+**Title:** Logged out users can vote
+**Traces to: ** Accounts REQ-02
+**Test type:** Security
+**Preconditions:** Don't log in, attempt to vote 
+**Test data:** Some pre-existing costume entries 
+
+**Steps:**
+1. Don't create an account or log in
+2. Attempt to vote
+
+**Expected result:** Error (Message: Please log in to submit a vote)
+**Actual result:** Vote is taken instead of rejected 
+**Status:** Fail
+**Severity:** Major
+**V or V:** Verification
+
+---
+
 **Test ID:**
 **Written by:**
 **Title:**
 **Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
+**Test type:**
 **Preconditions:**
 **Test data:**
 
@@ -29,9 +49,9 @@ HOW TO USE THIS FILE
 
 **Expected result:**
 **Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Status:**
+**Severity:**
+**V or V:**
 
 ---
 
