@@ -44,22 +44,34 @@ Password: 1234
 ---
 
 **Test ID:**
+KL02
 **Written by:**
+Katie
 **Title:**
+Voting for the same costume
 **Traces to:**
+REQ11
 **Test type:**
+Acceptance ID
 **Preconditions:**
+created an account (username and password)
 **Test data:**
-
+Costumes exists (Zombie Barista)
+Logged In
 **Steps:**
-1.
-2.
-3.
+1. Create an account
+2. Log in
+3. Go to votes page
+4. click vote underneath costume
 
-**Expected result:**
+**Expected result:** 
+Cannot vote for the same costume
 **Actual result:**
+allows them to vote for the same costume
 **Status:**
+Fail
 **Severity:**
+Major
 **V or V:**
-
+Verification
 ---
